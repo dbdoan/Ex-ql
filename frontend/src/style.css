@@ -296,3 +296,12 @@ code {
     border-right-color: var(--border);
   }
 }
+
+.social-icon {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.15);
+}

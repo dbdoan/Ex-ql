@@ -27,13 +27,13 @@
 
   <footer class="mb-2">
     <div>
-      developed by danny
+      developed by <strong>danny doan</strong>
     </div>
-    <div>
-      <a href="https://www.linkedin.com/in/dbdoan/" target="_blank">
+    <div class="social-logos">
+      <a href="https://www.linkedin.com/in/dbdoan/" target="_blank" class="social-icon">
         <img :src="linkedinLogo" class="linkedin-logo" width="25" height="25">
       </a>
-      <a href="https://github.com/dbdoan" target="_blank">
+      <a href="https://github.com/dbdoan" target="_blank" class="social-icon">
         <img :src="githubLogo" class="github-logo ms-1" width="25" height="25">
       </a>
     </div>
